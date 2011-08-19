@@ -1,0 +1,21 @@
+
+A simple compnoent which extends A,
+it provide a different behavior.
+
+
+If you register a onClick event in server side , 
+it will ignore the href by default.
+ 
+(In original A component , it will redirect to the href.)
+
+Also we provie a disableHref attribute to disable the href behavior only.
+
+(In some case, like A in listbox , it might only use the onSelect event 
+ instead of the onClick event for every A.)
+ 
+ 
+ 
+
+
+
+

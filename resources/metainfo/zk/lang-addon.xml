@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<language-addon>
+	<addon-name>hyperlink</addon-name> <!-- required -->
+
+ 	<version>
+		<version-class>ork.zkoss.fiddle.hyperlink.Version</version-class>
+		<version-uid>0.8.0</version-uid>
+		<zk-version>5.0.0</zk-version><!-- or later -->
+	</version>
+
+	<language-name>xul/html</language-name>
+	<component>
+		<component-name>hyperlink</component-name> <!-- required -->
+		<component-class>ork.zkoss.fiddle.hyperlink.Hyperlink</component-class> <!-- required -->
+		<widget-class>zul.fiddle.hyperlink.Hyperlink</widget-class> <!-- required -->
+	</component>
+</language-addon>
