@@ -1,5 +1,4 @@
 <zk>
 	<hyperlink href="http://www.google.com.tw" disableHref="true" label="Test" />
-	
 	<hyperlink href="http://www.google.com.tw" onClick='alert("test")' label="Test2" />
 </zk>

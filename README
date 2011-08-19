@@ -13,7 +13,14 @@ Also we provie a disableHref attribute to disable the href behavior only.
 (In some case, like A in listbox , it might only use the onSelect event 
  instead of the onClick event for every A.)
  
+ --
  
+ The test case
+ 
+ <zk>
+	<hyperlink href="http://www.google.com.tw" disableHref="true" label="Test" />
+	<hyperlink href="http://www.google.com.tw" onClick='alert("test")' label="Test2" />
+</zk>
  
 
 
