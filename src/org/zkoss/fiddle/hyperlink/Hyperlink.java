@@ -1,4 +1,4 @@
-package ork.zkoss.fiddle.hyperlink;
+package org.zkoss.fiddle.hyperlink;
 
 import java.io.IOException;
 
